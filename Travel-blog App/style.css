@@ -141,13 +141,15 @@ h3{ text-align: center;
 footer{
     display: flex;
     align-items: center;
-    margin-top: 50px
+    margin-top: 50px;
+    
 }
  footer ul{
     display: flex;
     align-items: right;
     justify-content: center;
     margin-left: 60%;
+    
 }
 
 

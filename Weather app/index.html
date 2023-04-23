@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+  
+  </head>
+  <body>
+    
+  
+
+    <!-- nav bar -->
+    <nav>
+        <div class="container">
+          <h1>Know Weather</h1>
+          <form class="d-flex" role="search">
+            <input  type="search" placeholder="Enter your city..." >
+            <button type="submit" id="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- main part -->
+  
+
+    <main>
+      
+      <div class="card">
+     <div id="card-header">
+      <h2>Weather of <span id="cityname"></span></h2> </div>
+      <div id="card-body">
+        <ul>
+          <li>Temperature : <span id="temp"></span>  C</li>
+          <li>Humidity : <span id="humidity"></span> %</li> 
+          <li>Wind Speed : <span id="wind_speed"></span>  km/h  </li>
+          <li>Cloud %  : <span id="cloud_pct"></span> %</li>
+        </ul>
+      </div>
+      </div>
+      
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

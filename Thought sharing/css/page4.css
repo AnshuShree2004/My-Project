@@ -1,0 +1,32 @@
+body{
+  width: 100vh;
+  height:100vw;
+  box-sizing: border-box;
+  background-color: black;
+}
+div{
+  height: 20vh;
+  padding-top: 50px;
+}
+h2{
+ 
+  
+  font-family: 'Itim',cursive;
+  font-size: 60px;
+  text-align: center;
+  color: purple;
+  background-color: wheat;
+}
+p{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+footer div h3{
+  
+ background-color: #fff;
+  padding: 30px;
+  font-size: 70px;
+  color: purple;
+}

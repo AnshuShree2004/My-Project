@@ -245,7 +245,7 @@ form{
 }
    
 
-/* media query */
+/* media query 
 
 @media (max-width: 1615px) {
     
@@ -258,8 +258,8 @@ form{
     }
 
 
-  /*  .sidebar{
+    .sidebar{
         transform: translate(-443px,0);
         position: absolute;
-    }*/
-  }
+    }
+  }*/
